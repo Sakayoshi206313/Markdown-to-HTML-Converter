@@ -17,7 +17,7 @@ if($action === 'markdown') {
     //Composerのオートローダーを読み込む
     require "vendor/autoload.php";
 
-    // Parsedownクラスのインスタンスを作成
+    // Parsedownクラスのインスタンスを作成 Parsedown()
     $parsedown = new Parsedown();
 
     // マークダウンをHTMLに変換
